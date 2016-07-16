@@ -11,7 +11,7 @@ namespace Zoolandia
 
           Manta.Name = "hello";
 
-          Manta.ToString();
+          Console.WriteLine(Manta.writeNovel());
         }
     }
 }
