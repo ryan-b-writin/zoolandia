@@ -6,7 +6,10 @@ namespace Zoolandia
     {
         public string Name {get; set;}
 
-        public virtual string Eat(int numberOfFoodz)
+        public string Saxophone(){
+            return "careless whispers...";
+        }
+        public virtual string Eat(int numberOfFood)
         {
             return "nom";
         }
