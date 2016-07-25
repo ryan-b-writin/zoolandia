@@ -2,7 +2,7 @@ using System;
 
 namespace Zoolandia.Species
 {
-    public class DasypusNovemcinctus : Dasypus
+    public class DasypusHybridus : Dasypus
     {
         public string Leprosy()
         {
@@ -17,9 +17,9 @@ namespace Zoolandia.Species
             string animalEat = base.Eat(3);
             return animalEat + " hey BUDDY gimmie more food";
         }
-        public DasypusNovemcinctus()
+        public DasypusHybridus()
         {
-            this.Name = "Jimmy";
+            this.Name = "Jennifer";
         }
         public override string MakeANoise()
         {

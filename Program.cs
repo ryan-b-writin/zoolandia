@@ -10,7 +10,7 @@ namespace Zoolandia
           MantaBirostris Manta = new MantaBirostris();
           DasypusNovemcinctus Armadillo = new DasypusNovemcinctus();
           ErinaceusConcolor Hedgehog = new ErinaceusConcolor();
-          HippoPotamusAmphibius Hippo = new HippoPotamusAmphibius();
+          HippopotamusAmphibius Hippo = new HippopotamusAmphibius();
 
           Manta.Name = "hello";
 

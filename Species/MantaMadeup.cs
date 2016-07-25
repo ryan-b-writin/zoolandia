@@ -2,7 +2,7 @@ using System;
 
 namespace Zoolandia.Species
 {
-    public class MantaBirostris : Animal
+    public class MantaMadeup : Manta
     {
         public string Swim()
         {
@@ -17,9 +17,9 @@ namespace Zoolandia.Species
             string animalEat = base.Eat(3);
             return animalEat + " I'm a majestic sea creature and I just ate food";
         }
-        public MantaBirostris()
+        public MantaMadeup()
         {
-            this.Name = "Joan";
+            this.Name = "Jone";
         }
         public override string MakeANoise()
         {

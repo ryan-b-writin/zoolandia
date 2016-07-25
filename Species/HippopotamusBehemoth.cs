@@ -2,7 +2,7 @@ using System;
 
 namespace Zoolandia.Species
 {
-    public class HippopotamusAmphibius : Hippopotamus
+    public class HippopotamusBehemoth : Hippopotamus
     {
         public string Spray()
         {
@@ -17,9 +17,9 @@ namespace Zoolandia.Species
             string animalEat = base.Eat(3);
             return animalEat + " I'M HUNGRY, HUNGRY!!";
         }
-        public HippopotamusAmphibius()
+        public HippopotamusBehemoth()
         {
-            this.Name = "Pat";
+            this.Name = "Phil";
         }
         public override string MakeANoise()
         {

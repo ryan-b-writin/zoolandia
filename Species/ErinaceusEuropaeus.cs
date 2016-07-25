@@ -2,7 +2,7 @@ using System;
 
 namespace Zoolandia.Species
 {
-    public class ErinaceusConcolor : Erinaceus
+    public class ErinaceusEuropaeus : Erinaceus
     {
         public string CurlUp()
         {
@@ -17,9 +17,9 @@ namespace Zoolandia.Species
             string animalEat = base.Eat(3);
             return animalEat + " chili dogs...";
         }
-        public ErinaceusConcolor()
+        public ErinaceusEuropaeus()
         {
-            this.Name = "Jeff";
+            this.Name = "Geoff";
         }
         public override string MakeANoise()
         {
