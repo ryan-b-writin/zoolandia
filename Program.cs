@@ -21,6 +21,10 @@ namespace Zoolandia
 
           Console.WriteLine("Hippo's name: " + Hippo.Name + " Manta's name: " + Manta.Name );
           Console.WriteLine("Hedgehog's name: " + Hedgehog.Name + " Armadillo's name: " + Armadillo.Name);
+
+          Console.WriteLine(Armadillo.MakeANoise());
+          Console.WriteLine("Hedgehog noise!! " + Hedgehog.MakeANoise());
+
           
         }
     }

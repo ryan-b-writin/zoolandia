@@ -4,11 +4,13 @@ namespace Zoolandia
 {
     public class Dasypus : Animal
     {
-        string genus = "Dasypus";
-
+        public Dasypus()
+        {
+        this.Genus = "Dasypus";
+        }
         public override string MakeANoise()
         {
-           return "snort";
+           return "snort " + "genus: " + Genus;
         }
         
     }

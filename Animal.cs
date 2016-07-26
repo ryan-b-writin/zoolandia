@@ -7,6 +7,8 @@ namespace Zoolandia
         public string Name {get; set;}
         public int Legs {get; set;}
 
+        public string Genus {get; set;}
+
         public Animal()
         {
 

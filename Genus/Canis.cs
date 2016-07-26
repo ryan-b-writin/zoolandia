@@ -4,11 +4,14 @@ namespace Zoolandia
 {
     public class Canis : Animal
     {
-        string genus = "Canis";
+        public Canis()
+        {
+        this.Genus = "Canis";
+        }
 
         public override string MakeANoise()
         {
-           return "woof";
+        return "woof "+ "genus: " + Genus;
         }
         
     }

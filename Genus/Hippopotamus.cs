@@ -4,11 +4,14 @@ namespace Zoolandia
 {
     public class Hippopotamus : Animal
     {
-        string genus = "Hippopotamus";
+        public Hippopotamus()
+        {
+        this.Genus = "Hippopotamus";
+        }
 
         public override string MakeANoise()
         {
-           return "FOOSH";
+        return "FOOSH " + "genus: " + Genus;
         }
         
     }
