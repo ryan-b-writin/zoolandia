@@ -2,8 +2,16 @@ using System;
 
 namespace Zoolandia
 {
-    public class Hippopotamus : Animal
+    public class Hippopotamus : Animal, ISeaCreatures
     {
+        public string BlowBubbles(int numOfBubbles)
+        {
+            return numOfBubbles + " bubbles!!!!";
+        }
+        public bool HasGills()
+        {
+            return false;
+        }
         public Hippopotamus()
         {
         this.Genus = "Hippopotamus";

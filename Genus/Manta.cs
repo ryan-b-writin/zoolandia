@@ -2,8 +2,17 @@ using System;
 
 namespace Zoolandia
 {
-    public class Manta : Animal
+    public class Manta : Animal, ISeaCreatures
     {
+        public string BlowBubbles(int numOfBubbles)
+        {
+            return numOfBubbles + " bubbles!!";
+        }
+
+        public bool HasGills()
+        {
+            return true;
+        }
         public Manta()
         {
         this.Genus = "Manta";
