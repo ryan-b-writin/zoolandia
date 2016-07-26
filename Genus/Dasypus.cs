@@ -7,6 +7,7 @@ namespace Zoolandia
         public Dasypus()
         {
         this.Genus = "Dasypus";
+        this.CommonName = "Armadillo";
         }
 
         public string Diseased(int numOfDiseases)

@@ -7,6 +7,7 @@ namespace Zoolandia
         public Canis()
         {
         this.Genus = "Canis";
+        this.CommonName = "Dog";
         }
 
         public string BegForTreat(int numOfTreats)

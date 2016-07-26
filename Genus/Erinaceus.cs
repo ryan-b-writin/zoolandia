@@ -7,6 +7,7 @@ namespace Zoolandia
         public Erinaceus()
         {
         this.Genus = "Erinaceus";
+        this.CommonName = "Hedgehog";
         }
         public string Diseased(int numOfDiseases)
         {

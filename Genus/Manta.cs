@@ -16,6 +16,7 @@ namespace Zoolandia
         public Manta()
         {
         this.Genus = "Manta";
+        this.CommonName = "Manta";
         }
 
         public override string MakeANoise()

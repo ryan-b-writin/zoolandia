@@ -15,6 +15,7 @@ namespace Zoolandia
         public Hippopotamus()
         {
         this.Genus = "Hippopotamus";
+        this.CommonName = "Hippo";
         }
 
         public override string MakeANoise()
